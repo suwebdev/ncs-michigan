@@ -115,6 +115,13 @@ div.teaser-overlay.colorb {
 }
 
 
+/* Removing arrow from menu link hover */
+#wrap a.magicmore:hover:after {
+    opacity: 1;
+    margin-right: -3px;
+    display:none;
+}
+
 /* Info Center Menu Styling */
 
 @media only screen and (min-width: 961px)
