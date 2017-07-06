@@ -175,3 +175,10 @@ master-min.php?ver=3.1.0:1
 h4.subtitle {
     font-size: 16px;
 }
+
+/* Top Bar Apply Now placement */
+
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"] {
+    position:relative;
+    bottom:20px;
+}
