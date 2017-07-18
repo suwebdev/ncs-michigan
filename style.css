@@ -197,3 +197,25 @@ h4.subtitle {
     position:relative;
     top: 20px;
 }
+
+/* Styling Links */
+
+a {
+    color: #aa0000;
+}
+
+a:hover {
+    color: #2c2c2b;
+};
+
+/* Styling Info Center Links so they're not so dark on hover */
+
+a.magicmore:hover {
+    color:white;
+};
+
+/* Styling buttons on hover so they're not black */
+
+a.button.theme-skin.small:hover {
+    color:#2c2c2b;
+};
