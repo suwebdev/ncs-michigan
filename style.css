@@ -219,3 +219,18 @@ a.magicmore:hover {
 a.button.theme-skin.small:hover {
     color:#2c2c2b;
 };
+
+/* Featured Event (event list) Background Color Change/Font color change */
+
+.tribe-events-list .tribe-events-loop .tribe-event-featured {
+    background: rgba(0,0,0,0);
+};
+
+.tribe-events-list .tribe-events-loop .tribe-event-featured .tribe-events-list-event-title a {
+    color:#404040;
+};
+
+.tribe-events-list .tribe-events-loop .tribe-event-featured a {
+    color:#aa0000;
+};
+
