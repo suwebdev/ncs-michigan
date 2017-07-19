@@ -230,8 +230,8 @@ a.magicmore:hover {
 
 /* Styling all menu links to, on hover, be white with underline */
 .dark-submenu #nav ul li a:hover {
-    color:white;
-    text-decoration:underline;
+    color:white !important;
+    text-decoration:underline !important;
 }
 
 /*------------- Form Styles for Form Assembly Forms -------------------------*/
