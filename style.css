@@ -228,6 +228,12 @@ a.magicmore:hover {
     color:#aa0000 !important;
 }
 
+/* Styling all menu links to, on hover, be white with underline */
+.dark-submenu #nav ul li a:hover {
+    color:white;
+    text-decoration:underline;
+}
+
 /*------------- Form Styles for Form Assembly Forms -------------------------*/
 .wFormContainer {
     border-width: 0px !important;
