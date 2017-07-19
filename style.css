@@ -205,34 +205,34 @@ a {
 
 a:hover {
     color: #2c2c2b;
-};
+}
 
 /* Styling Info Center Links so they're not so dark on hover */
 
 a.magicmore:hover {
     color:white !important;
     text-decoration: underline !important;
-};
+}
 
 /* Styling buttons on hover so they're not black */
 
 a.button.theme-skin.small:hover {
     color:#2c2c2b !important;
-};
+}
 
 /* Featured Event (event list) Background Color Change/Font color change */
 
 .tribe-events-list .tribe-events-loop .tribe-event-featured {
     background: rgba(0,0,0,0) !important;
-};
+}
 
 .tribe-events-list .tribe-events-loop .tribe-event-featured .tribe-events-list-event-title a {
     color:#404040 !important;
-};
+}
 
 .tribe-events-list .tribe-events-loop .tribe-event-featured a {
     color:#aa0000 !important;
-};
+}
 
 /*------------- Form Styles for Form Assembly Forms -------------------------*/
 .wFormContainer {
