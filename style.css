@@ -223,15 +223,15 @@ a.button.theme-skin.small:hover {
 /* Featured Event (event list) Background Color Change/Font color change */
 
 .tribe-events-list .tribe-events-loop .tribe-event-featured {
-    background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0) !important;
 };
 
 .tribe-events-list .tribe-events-loop .tribe-event-featured .tribe-events-list-event-title a {
-    color:#404040;
+    color:#404040 !important;
 };
 
 .tribe-events-list .tribe-events-loop .tribe-event-featured a {
-    color:#aa0000;
+    color:#aa0000 !important;
 };
 
 /*------------- Form Styles for Form Assembly Forms -------------------------*/
