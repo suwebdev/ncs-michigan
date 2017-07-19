@@ -16,7 +16,7 @@
 
 
 #main-content.container {
-     padding-top: 0px;	
+     padding-top: 0px;
 }
 
 .icon-box3 h4 {
@@ -191,7 +191,6 @@ h4.subtitle {
     left: 10px;
 }
 
-
 /* Pie Chart Heading, Student Success Page */
 .wpb_pie_chart_heading {
     position:relative;
@@ -234,3 +233,92 @@ a.button.theme-skin.small:hover {
     color:#aa0000;
 };
 
+/*------------- Form Styles for Form Assembly Forms -------------------------*/
+.wFormContainer {
+    border-width: 0px !important;
+    border-style: none !important;
+    margin: 0 auto !important;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #ffffff !important;
+    color: inherit !important;
+    border-color: rgba(0,0,0,0) !important;
+    font-family: Raleway, sans-serif !important;
+}
+.wForm fieldset legend {
+    padding: 0 8px;
+}
+.wForm legend, .wForm h4 {
+    color: #aa0000 !important;
+    font-size: 1rem !important;
+}
+.wForm fieldset {
+    border-width: 6px !important;
+    border-style: solid !important;
+    margin: 0 auto;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    border-color: #e8e8e8 !important;
+    margin-bottom: 1rem !important;
+}
+.htmlContent p b span {
+    color: #aa0000 !important;
+}
+.wForm .field-hint-inactive .hint {
+    opacity: 1 !important;
+    color: #333 !important;
+}
+.wForm .oneField input {
+    background: #FFFFFF;
+    border-color: #888888 #CCCCCC #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px 0 2px 2px;
+}
+.wForm input[type="text"], .wForm input[type="password"], .wForm input[type="file"], .wForm textarea, .wForm select {
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+.wForm input[type=button], .wForm input[type=submit] {
+    color: #ffffff !important;
+    background-color: #aa0000 !important;
+    border-color: #aa0000 !important;
+    border-style: solid !important;
+    font-size: 1.2rem !important;
+    border-width: 1px !important;
+    font-family: Raleway, sans-serif;
+    padding: 0.5rem 1rem;
+}
+.wForm input[type="button"], .wForm input[type="submit"] {
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+.wForm .primaryAction:hover, .wForm .secondaryAction:hover, .wForm .wfPagePreviousButton:hover, .wForm .wfPageNextButton:hover {
+    border-color: #000 !important;
+    box-shadow: none !important;
+}
+.wForm form .secondaryAction {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+.wForm form .secondaryAction:hover {
+    color: #fff !important;
+    background-color: #666 !important;
+    border-color: #666 !important;
+}
+.wForm form .primaryAction:hover {
+    color: #fff !important;
+    border-color: #666 !important;
+    background-color: #666 !important;
+}
+.wForm .secondaryAction, .wForm .primaryAction, .wForm .wfPagePreviousButton, .wForm .wfPageNextButton {
+    background-image: none !important;
+}
+/*-------------- End Form Styles --------------------------------------------*/
