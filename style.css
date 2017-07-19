@@ -124,16 +124,9 @@ div.teaser-overlay.colorb {
 
 /* Info Center Menu Styling */
 
-@media only screen and (min-width: 961px)
-.dark-submenu #nav h4.subtitle {
-    margin: 25px 0 15px 0;
-    color: #d8d8d8;
-    border-color: #aa0000 !important;
-}
-
 #nav h4.subtitle {
     margin: 14px 0;
-    border-color: #e8e8e8;
+    border-color: #aa0000 !important;
     border-width: 1px;
     font-size: 14px;
 }
@@ -216,8 +209,9 @@ a.magicmore:hover {
 
 /* Styling buttons on hover so they're not black */
 
-a.button.theme-skin.small:hover {
-    color:#2c2c2b !important;
+#nav-wrap #nav li.mega ul[class^="sub-"] li a.button:hover {
+    background:#2c2c2c;
+    color:white;
 }
 
 /* Featured Event (event list) Background Color Change/Font color change */
