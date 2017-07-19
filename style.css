@@ -202,7 +202,7 @@ a:hover {
 
 /* Styling Info Center Links so they're not so dark on hover */
 
-a.magicmore:hover {
+.dark-submenu #nav a.magicmore:hover {
     color:white !important;
     text-decoration: underline !important;
 }
