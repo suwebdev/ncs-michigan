@@ -216,15 +216,15 @@ a:hover {
     width:150px;
 }
 
-.footer a,
-.footer a:link,
-.footer a:visited,
-.footer a:active,
-.footer a:focus {
+.footer-in a,
+.footer-in a:link,
+.footer-in a:visited,
+.footer-in a:active,
+.footer-in a:focus {
     color:white;
 }
 
-.footer a:hover {
+.footer-in a:hover {
     color: white;
     text-decoration: underline;
 }
