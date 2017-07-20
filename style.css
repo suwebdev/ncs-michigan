@@ -3,7 +3,7 @@
  Theme URI:      http://webnus.biz/themes/michigan
  Description:    NCS Child Theme of Michigan
  Author:         School of New and Continuing Studies
- Author URI:     http://www.seattleu.edu/ncs
+ Author URI:     https://ncs.seattleu.edu
  Template:       michigan
  Version:        3.1.0
 */
@@ -136,7 +136,7 @@ div.teaser-overlay.colorb {
 .top-links a[href="http://seattleu.edu"] {
     display: inline-block;
     width: 80px;
-    background: url(http://i.imgur.com/MlN3ZPn.jpg) no-repeat left center;
+    background: url(//i.imgur.com/MlN3ZPn.jpg) no-repeat left center;
     background-size: contain;
     text-indent: 400px;
     white-space: nowrap;
@@ -200,6 +200,11 @@ a {
 
 a:hover {
     color: #2c2c2b;
+}
+#wrap .button.theme-skin:hover {
+    background: #333;
+    border-color: #333;
+    color: white;
 }
 
 /* Styling Info Center Links so they're not so dark on hover */
