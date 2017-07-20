@@ -198,7 +198,7 @@ h4.subtitle {
 
 /* Styling Links */
 
-a {
+a, a:visited, a:active, a:link {
     color: #aa0000;
 }
 
