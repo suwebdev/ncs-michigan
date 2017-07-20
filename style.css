@@ -53,18 +53,7 @@ h5.teaser-subtitle {
     font-weight: 300;
 }
 
-#footerlogo {
-	width:150px;
-}
 
-.footer-in a {
-	color:white;
-}
-
-section.container.footer-in {
-	padding-top:50px;
-	padding-bottom:50px;
-}
 
 div.textwidget {
 	font-weight:400;
@@ -144,12 +133,21 @@ div.teaser-overlay.colorb {
 }
 /* Top Bar Apply Now placement */
 
-.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"] {
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"],
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:visited,
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:active,
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:focus,
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:link {
     display: inline-block;
     width: 80px;
     background-size: contain;
     white-space: nowrap;
     overflow: hidden;
+    color: white;
+}
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 /* Main Menu Navigation */
@@ -205,12 +203,36 @@ a, a:visited, a:active, a:link {
 a:hover {
     color: #2c2c2b;
 }
+
+
 #wrap .button.theme-skin:hover {
     background: #333;
     border-color: #333;
     color: white;
 }
 
+/* footer styles */
+#footerlogo {
+    width:150px;
+}
+
+.footer a,
+.footer a:link,
+.footer a:visited,
+.footer a:active,
+.footer a:focus {
+    color:white;
+}
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+section.container.footer-in {
+    padding-top:50px;
+    padding-bottom:50px;
+}
 /* Styling Info Center Links so they're not so dark on hover */
 
 .dark-submenu #nav a.magicmore:hover {
