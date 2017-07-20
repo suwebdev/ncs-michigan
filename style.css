@@ -142,6 +142,15 @@ div.teaser-overlay.colorb {
     white-space: nowrap;
     overflow: hidden;
 }
+/* Top Bar Apply Now placement */
+
+.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"] {
+    display: inline-block;
+    width: 80px;
+    background-size: contain;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 /* Main Menu Navigation */
 
@@ -168,12 +177,7 @@ h4.subtitle {
     font-size: 16px;
 }
 
-/* Top Bar Apply Now placement */
 
-.top-links a[href="https://seattleu.secure.force.com/form?formid=217882"] {
-    position:relative;
-    bottom:20px;
-}
 
 /* Mobile Navigation Logo Placement */
 
