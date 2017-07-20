@@ -177,11 +177,13 @@ h4.subtitle {
 
 /* Mobile Navigation Logo Placement */
 
-@media only screen and (max-width: 960px)
-#header.w-header-type-12.res-menu .logo-wrap .logo img {
-    max-width: 120px;
-    position: absolute;
-    left: 10px;
+@media only screen and (max-width: 960px) {
+    #header.w-header-type-12.res-menu .logo-wrap .logo img {
+        max-width: 120px;
+        position: absolute;
+        left: 10px;
+        padding-top: 0;
+    }
 }
 
 /* Pie Chart Heading, Student Success Page */
