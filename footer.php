@@ -95,7 +95,7 @@ if($michigan_webnus_options['michigan_webnus_footer_subscribe_bar']){
 				<br>
 				<a href="/student-success/">Student Success</a>
 				<br>
-				<a href="/programs-courses/">Programs & Coursesr</a>
+				<a href="/programs-courses/">Programs & Courses</a>
 		</li>
 	<?php if(is_active_sidebar('footer-section-3')) dynamic_sidebar('footer-section-3'); ?></ul></div>
 	<div class="col-md-3"><ul>
