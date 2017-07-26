@@ -217,6 +217,14 @@ a.button.theme-skin:hover {
     color: white;
 }
 
+.sharing-box a,
+.sharing-box a:hover,
+.sharing-box a:link,
+.sharing-box a:visited,
+.sharing-box a:focus {
+    color: white;
+}
+
 /* footer styles */
 #footerlogo {
     width:150px;
