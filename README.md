@@ -1,4 +1,4 @@
-#NCS Child Theme of Michigan
+# NCS Child Theme of Michigan
 
 This repository contains only the **theme** files for the NCS Child Theme based on the Michigan theme for universities, colleges, and online schools.
 
