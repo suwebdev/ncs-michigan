@@ -91,7 +91,7 @@ if($michigan_webnus_options['michigan_webnus_footer_subscribe_bar']){
 				<br>
 				<a href="/information-center/">Info Center</a>
 				<br>
-				<a href="/news-events/">Events</a>
+				<a href="/news-events/">News &amp; Events</a>
 				<br>
 				<a href="/student-success/">Student Success</a>
 				<br>
