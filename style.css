@@ -124,7 +124,7 @@ div.teaser-overlay.colorb {
 
 .top-links a[href="http://seattleu.edu"] {
     display: inline-block;
-    width: 80px;
+    width: 90px;
     background: url(//i.imgur.com/MlN3ZPn.jpg) no-repeat left center;
     background-size: contain;
     text-indent: 400px;
@@ -132,19 +132,24 @@ div.teaser-overlay.colorb {
     overflow: hidden;
 }
 /* Top Bar Apply Now placement */
-
+.top-links a[href*="request-information"],
+.top-links a[href*="request-information"]:visited,
+.top-links a[href*="request-information"]:active,
+.top-links a[href*="request-information"]:focus,
+.top-links a[href*="request-information"]:link,
 .top-links a[href="https://seattleu.secure.force.com/form?formid=217882"],
 .top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:visited,
 .top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:active,
 .top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:focus,
 .top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:link {
     display: inline-block;
-    width: 80px;
+    width: 90px;
     background-size: contain;
     white-space: nowrap;
     overflow: hidden;
     color: white;
 }
+.top-links a[href*="request-information"]:hover,
 .top-links a[href="https://seattleu.secure.force.com/form?formid=217882"]:hover {
     color: white;
     text-decoration: underline;
