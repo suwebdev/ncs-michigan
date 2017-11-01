@@ -193,6 +193,12 @@ h4.subtitle {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    #wrap .phones-components {
+        display: none;
+    }
+}
+
 /* Pie Chart Heading, Student Success Page */
 .wpb_pie_chart_heading {
     position:relative;
