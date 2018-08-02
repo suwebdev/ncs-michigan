@@ -69,7 +69,7 @@ if($michigan_webnus_options['michigan_webnus_footer_subscribe_bar']){
 		<li id="text-3" class="widget widget_text">
 			<h5 class="subtitle">CONTACT</h5>
 			<div class="textwidget">
-				SU Law School Annex (LSAX)
+				Seattle University Harding Building (HRDG)
 				<br>
 				1215 E. Columbia St. Rm 141
 				<br>
